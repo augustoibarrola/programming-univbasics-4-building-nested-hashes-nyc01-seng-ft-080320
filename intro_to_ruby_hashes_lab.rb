@@ -5,7 +5,7 @@ end
 def monopoly_with_second_tier
 needs_an_array = {railroads: Hash.new}
   needs_an_array[:railroads] = {
-    pieces: "4",
+    pieces: 4,
     rent_in_dollars: Hash.new,
     names: Hash.new
   }
