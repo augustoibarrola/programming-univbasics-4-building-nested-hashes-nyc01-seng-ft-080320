@@ -1,10 +1,10 @@
 def base_hash
-  needs_an_array = {railroads: Hash.new}
+  base_hash = {railroads: Hash.new}
 end
 
 def monopoly_with_second_tier
-needs_an_array = {railroads: Hash.new}
-  needs_an_array[:railroads] = {
+base_hash = {railroads: Hash.new}
+  base_hash[:railroads] = {
     pieces: 4,
     rent_in_dollars: Hash.new,
     names: Hash.new
