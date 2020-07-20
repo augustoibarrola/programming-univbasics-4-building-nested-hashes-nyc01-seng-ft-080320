@@ -12,11 +12,6 @@ end
 
 
 def monopoly_with_third_tier
-  new_hash = {
-    railroads: Array.new,
-    pieces: "4",
-    rent_in_dollars: Hash.new,
-    names: {}}
 
 end
 
