@@ -8,11 +8,6 @@ end
 
 
 def monopoly_with_third_tier
-new_hash = {railroads: Array.new, pieces: 4, rent_in_dollars: Hash.new, names: {}}
-new_hash[:rent_in_dollars] = {one_piece_owned: "25", two_pieces_owned: "50",
-                              three_pieces_owned: "100", four_pieces_owned: "200"}
-new_hash[:names] = {reading_railroad: Hash.new, pennsylvania_railroad: Hash.new,
-                    b_and_o_railroad: Hash.new, shortline_railroad: Hash.new}
 
 end
 
